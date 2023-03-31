@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta name="description" content="this is an ecommerce project for
+    making TwinBrothersLTD">
+
+    
+
+    <title>TwinBrothers</title>
+    
+    <!--Font awsome cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+     integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <!--Google fonts-->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alkatra&family=Roboto:wght@300&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Navbar start here-->
+    <i class="fa-solid fa-bars" id="menu-icon"></i>
+    <nav id="menu" class="hidden">
+        <ul class="nav-upper flex-space-around">
+            <li calss="nav-list">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li calss="nav-list">
+                <a class="nav-link" href="register.html">Register</a>
+            </li>
+            <li calss="nav-list">
+                <a class="nav-link" href="login.html">Log In</a>
+            </li>
+            <li calss="nav-list">
+                <a class="nav-link" href="index.html">Log Out</a>
+            </li>
+            <li calss="nav-list">
+                <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li calss="nav-list">
+                <a class="nav-link" href="profile.html"><img
+                    class="profile-icon" src="./img/myPhoto.jpg"></a>
+            </li>
+        </ul>
+        <ul class="nav-lower flex-space-around">
+            <li class="nav-list">
+                <a class="nav-brand nav-link" href="index.html">TwinBrothers</a>
+            </li>
+            <li class="nav-list">
+                <a class="nav-link" href="cart.html">
+                    <span><i class="fa-solid fa-cart-shopping"></i></span>
+                    Cart
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <!--Navbar start here-->
+    <!--Main start here-->
+    <main>
+        <div class="cart flex-center">
+            <div class="cart-items">
+                <div class="cart-items-heading card">
+                    <h2>Shopping Cart [2 items]</h2>
+                    <div class="cart-items-action">
+                        <label for="select">
+                            <input type="checkbox" name="select" id="select">
+                            Select all items
+                        </label>
+                        <button class="btn">
+                            <i class="fas fa-trash-alt"></i>
+                        </button>
+                        <button class="btn">Shop more</button>
+                    </div>
+                </div>
+
+                <div class="cart-item card flex-space-around">
+                    <input type="checkbox" name="" id=""/>
+                    <img class="cart-item-img" src="/img/product1.jpg" alt="product1">
+                    <div class="cart-item-description">
+                        <h3 class="product-name">Sony v-4 Headphone</h3>
+                        <h4 class="product-price">Price: $225.99</h4>
+                        <p class="cart-item-shipping">Free Shipping</p>
+                    </div>
+                    <div class="cart-item-actions">
+                        <button class="btn">
+                            <i class="fas fa-trash-alt"></i>
+                        </button>
+                    
+                    <div>
+                        <button class="btn">
+                            <i class="fas fa-add"></i>
+                        </button>
+                        <span>3</span>
+                        <button class="btn">
+                            <i class="fas fa-minus"></i>
+                        </button>
+                    </div>
+                </div>
+                </div>
+            </div>
+        
+        <div class="cart-item card flex-space-around">
+          <input type="checkbox" name="" id="">
+          <img class="cart-item-img" src="/img/product3.jpg" alt="product1">
+            <div class="cart-item-description">
+                <h3 class="product-name">Raybon Sunglass</h3>
+                <h4 class="product-price">Price: $100.99</h4>
+                <p class="cart-item-shipping">Shipping cost $2.99</p>
+            </div>
+                    <div class="cart-item-actions">
+                        <button class="btn">
+                            <i class="fas fa-trash-alt"></i>
+                        </button>
+                    </div>
+                    <div>
+                        <button class="btn">
+                            <i class="fas fa-add"></i>
+                        </button>
+                        <span>1</span>
+                    <button class="btn">
+                            <i class="fas fa-minus"></i>
+                        </button>
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+            <div class="cart-payment">
+                <div class="cart-payment-summary card">
+                    <h2>Payment Summary</h2>
+                    <div>
+                        <p>Subtotal: </p>
+                        <p>$324.99 </p>
+                    </div>
+                    <div>
+                        <p>Shipping cost: </p>
+                        <p>$2.0 </p>
+                    </div>
+                    <div>
+                        <p>Total cost: </p>
+                        <p>$326.99 </p>
+                    </div>
+                    <div>
+                        <button class="btn cart-payment-btn">Pay Now</button>
+                    </div>
+                    <div class="cart-payment-method card">
+                        <h2>Payment Methods</h2>
+                        <div>
+                           <i class="fa-brands fa-cc-visa fa-3x "></i>
+                           <i class="fa-brands fa-cc-apple-pay fa-3x "></i> 
+                           <i class="fa-brands fa-cc-amazon-pay fa-3x "></i> 
+                           <i class="fa-brands fa-cc-paypal fa-3x "></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </main>
+    <!--Main end here-->
+    <!--Footer start here-->
+    <footer class="footer flex-space-around">
+        <div class="flex-space-around">
+            <label for="subscribe">Subscribe to get update</label>
+            <input class="footer-input" id="subscribe" name="subscribe"
+             type="email" placeholder="Your Email plz">
+             <button class="btn btn-subscribe">Subscribe</button>
+        </div>
+        <div>
+            <p>&copy; Copyright in 2023 TwinBrothers.All reserved</p>
+        </div>
+
+    </footer>
+    
+    <!--Footer ends here-->
+    <script src="index.js"></script>
+</body>
+</html>
